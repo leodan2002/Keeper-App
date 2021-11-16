@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { FaFolder } from "react-icons/fa";
 
 function Header() {
     return (
         <header>
-            <h1>Notes</h1>
+            <h1><FaFolder /> Notes</h1>
         </header>
     )
 }
